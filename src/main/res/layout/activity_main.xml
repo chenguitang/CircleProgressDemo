@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.posin.circleprogressdemo.ui.activity.MainActivity">
+
+    <com.posin.circleprogressdemo.view.CircleProgressBar
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/cpb_progress"
+        app:inside_radius="110dp"
+        app:direction="top"
+        app:progress_text_size="22dp"
+        android:layout_centerInParent="true"
+        app:max_progress_size="100"
+        app:progress_default_text="检查更新" />
+
+</RelativeLayout>
